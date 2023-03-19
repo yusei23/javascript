@@ -1,0 +1,22 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.scrollTop{
+    border: 1px solid green;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-weight: bold;
+}
+.scrollTop:hover{
+    color: green;
+    cursor: pointer;
+}
+.scrollTop>span{
+    display: block;
+    font-variation-settings: 'wght' 800;
+}
