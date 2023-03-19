@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <style>
+        body {height: 4000px; text-align: center;
+        background-image: url("소고기미역파스타.jpg");
+    background-repeat: no-repeat;
+background-position: top;}
+        #top {position: fixed; bottom: 50px; right: 50px; font-weight: bold;}
+        #top:hover {color: blue; cursor: pointer;}
+        h1 {text-align: center;
+            text-decoration: underline;}
+        ol {text-align: center;
+            display: table;
+            margin-left: auto;
+            margin-right: auto;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How To Make Beef Seaweed Pasta</h1>
+        <Ol>
+            <li>파스타 면을 10분간 삶고 체에 받쳐 찬물에 헹구고 올리브유를 살짝 둘러준다.</li>
+            <li>미역을 물에 불려준다.</li>
+            <li>키친타올로 소고기의 핏기를 제거한다.</li>
+            <li>후라이팬에 참기름을 두르고 중불로 소고기를 볶아준다.</li>
+            <li>소고기가 반쯤 익었을 때 미역과 설탕 1T를 넣고 함께 볶아준다.</li>
+            <li>소고기가 다 익었으면 파스타 면, 면수 반컵을 넣고 약불에 섞어준다.</li>
+            <li>후추와 소금으로 간을 해주면 맛있는 소고기 미역 파스타 완성!</li>
+        </Ol>
+    </header>
+    <button id="top">top</button>
+    <script>function scrolltotop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+      }
+    var button = document .getElementById('top');
+    button.addEventListener('click', scrolltotop);
+    </script>
+</body>
+</html>
